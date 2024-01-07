@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+section {
+  height: 120vh;
+  /* padding: 100px 0; */
+}
+.hero {
+  height: 100vh;
+  background-image: url("../asset/images/banner/banner3.png");
+  background-position: center;
+  background-size: cover;
+}
+.heroContainer {
+  height: 100%;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+.container1 {
+  width: 1200px;
+  margin: 0 auto;
+}
+.heroContainer h2 {
+  font-size: 65px;
+  font-weight: 700;
+  width: 525px;
+  text-align: right;
+}
+.heroContainer p {
+  text-align: right;
+  font-size: 16px;
+  font-weight: 400;
+  width: 494px;
+  line-height: 26px;
+  margin: 24px 0;
+}
+.defaultBtn {
+  color: #005fac;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 25px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.myFailureContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.failureContent {
+  width: 416px;
+}
+.title1 {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+.failureContent p {
+  color: #444343;
+  margin-bottom: 16px;
+  margin-top: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.failureContent ul li {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.failureContent ul li::before {
+  content: "\2713";
+  margin-right: 10px;
+  font-size: 20px;
+  color: #16d887;
+}
+.plansContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 135px;
+}
+.plansTitle {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.plansTechContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.plansTechBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.plansTechBox h2 {
+  margin-top: 21px;
+  margin-bottom: 16px;
+}
+.title2 {
+  color: #151414;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
