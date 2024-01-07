@@ -124,3 +124,32 @@ section {
   font-weight: 700;
   line-height: normal;
 }
+.myPlansImage {
+  position: relative;
+}
+.myPlansImage img {
+  min-height: 100%;
+}
+.myPlansImage::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(90deg, #005fac, #005fac00);
+  border-radius: 8px;
+}
+.innerContent {
+  position: absolute;
+  z-index: 9;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.innerContent h2{
+    color: #fff;
+}
